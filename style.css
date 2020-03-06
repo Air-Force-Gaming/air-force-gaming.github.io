@@ -1,0 +1,243 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Source Sans Pro', ;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cfilter%20id%3D%22noise%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.5%200%22%20%2F%3E%3C%2Ffilter%3E%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E'), linear-gradient(45deg, #000422 25%, #002C82 68%);
+	background-size: 512px, auto;
+	background-position: center, 0% 0%;
+	background-repeat: repeat, repeat;
+}
+
+.verify {
+  width: 100%;
+  margin-top: 20px 0px 20px 0px;
+}
+
+.hero {
+  float: left;
+  height: 100vh;
+  color: #fff;
+}
+
+.hero p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.hero-mobile {
+  float: left;
+  height: 100vh;
+  color: #fff;
+  overflow: auto;
+}
+
+.hero .brand {
+  margin-top: 10vh;
+  margin-bottom: 10px;
+}
+
+.hero h3 {
+  font-style: italic;
+}
+
+.social {
+  margin-top: 30px;
+}
+
+.social .item {
+  margin: 10px 5px 10px 0px;
+}
+
+.social .speech-bubble {
+  position: relative;
+  top: -4px;
+  font-size: 10pt;
+  color: black;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.social h4 {
+  margin-bottom: 40px;
+}
+
+/* Desktop classes */
+
+.section {
+  padding: 40px 20px 40px 20px;
+  margin: 0px;
+}
+
+.section-slim {
+  padding: 0px;
+}
+
+.section .hero {
+  background: url(https://cdn.glitch.com/49e8ab49-5e2e-401b-870e-d906216158c8%2Fflorian-olivo-Mf23RF8xArY-unsplash.jpg?v=1582169997395) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 350px;
+}
+
+.section .name {
+  font-size: 18pt;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.section .name span {
+  font-style: normal;
+  font-size: 70%;
+}
+
+.section p {
+  margin-bottom: 0px;
+}
+
+.news a {
+  margin: 5px 0px 0px 0px;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.footer ul {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 11pt;
+}
+
+.footer ul li {
+  display: inline;
+  margin: 0px 3px 0px 3px;
+}
+
+/* Social icon classes */
+.fab {
+  font-size: 30px;
+  padding: 20px 22px 20px 22px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fas {
+  font-size: 30px;
+  padding: 20px 22px 20px 22px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fab-mobile {
+  font-size: 30px;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.fas-mobile {
+  font-size: 22px;
+  padding: 19px 16px 19px 16px;
+  text-decoration: none;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.fab:hover, .fas:hover {
+  opacity: 0.8;
+}
+
+/* Discord */
+.fa-discord {
+  background: #7289da;
+  color: white;
+}
+
+/* Facebook */
+.fa-facebook, .fa-users {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0073b1;
+  color: white;
+}
+
+.fa-instagram {
+  background: #DD2A7B;
+  color: white;
+}
+
+/* Twitch */
+.fa-twitch {
+  background: #9147ff;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* Utility classes */
+
+.no-margin {
+  margin: 0px;
+}
+
+.card {
+  height: 100%;
+}
+
+.video img {
+  height: 125px;
+}
+
+.card-panel {
+  padding: 5px 10px 10px 10px;
+}
+
+.card-content {
+  font-size: 90%;
+  line-height: 20px;
+}
+
+.card-image a {
+  margin-right: -15px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.scrollbar {
+  background-color: #0d47a1;
+  float: right;
+  width: 10px;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+} 
+
+#style-1::-webkit-scrollbar-thumb {
+  background-color: #212121;
+}
+
+/* Speech bubbles */
+
+.speech-bubble {
+  margin: 0px 10px 0px 10px;
+  padding: 10px 15px 10px 15px;
+	border-radius: 15px;
+}
