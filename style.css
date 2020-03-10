@@ -190,6 +190,12 @@ body {
   color: white;
 }
 
+/* Email */
+.fa-envelope {
+  background: #ffa726;
+  color: white;
+}
+
 /* Utility classes */
 
 .no-margin {
@@ -242,4 +248,18 @@ body {
   margin: 0px 10px 0px 10px;
   padding: 10px 15px 10px 15px;
 	border-radius: 15px;
+}
+
+#gameManagerApplication {
+  height: 85%;
+  background: #262626;
+}
+
+.modal-content {
+  height: 85%;
+}
+
+.modal-footer {
+  position: absolute;
+  bottom: 0px;
 }
