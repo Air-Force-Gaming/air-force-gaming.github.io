@@ -251,7 +251,7 @@ body {
 	border-radius: 15px;
 }
 
-#gameManagerApplication {
+#gameManagerApplication, #verificationApplication {
   height: 85%;
   background: #262626;
 }
