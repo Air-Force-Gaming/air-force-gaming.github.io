@@ -49,6 +49,11 @@ body {
   max-height: 350px;
 }
 
+.buttons {
+  font-size: 30pt;
+  cursor: pointer;
+}
+
 .social {
   margin-top: 30px;
   margin-bottom: 15px;

@@ -11,5 +11,12 @@ $(document).ready(function(){
         $('.carousel.carousel-slider').carousel('next');
     }, 6000);
     
+    $('#carousel-left').click(function(){
+        $('.carousel.carousel-slider').carousel('prev');
+    });
+
+    $('#carousel-right').click(function(){
+        $('.carousel.carousel-slider').carousel('next');
+    });
     
 });
