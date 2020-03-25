@@ -1,5 +1,7 @@
 $(window).on('load', function() {
     $(".loader").hide();
+    $(".header").toggle(200);
+    $(".container").toggle(200);
 
     $('.modal').modal();
     $('.carousel').carousel();

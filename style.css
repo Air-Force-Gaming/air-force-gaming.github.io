@@ -38,6 +38,11 @@
   background-repeat: repeat, repeat;
 }
 
+.header, .container {
+  display: none;
+  transition: 0.5s;
+}
+
 .header {
   position: fixed;
   top: 0px;
