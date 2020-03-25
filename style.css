@@ -57,6 +57,12 @@
   opacity: 1;
 }
 
+.header-nav .logo {
+  position: relative;
+  top: 2px;
+  max-width: 70px;
+}
+
 .hero {
   float: left;
   height: 100vh;
@@ -317,4 +323,35 @@
 .modal-footer {
   position: absolute;
   bottom: 0px;
+}
+
+/* Servers */
+
+.server h5 {
+  font-size: 18pt;
+}
+
+.server .details {
+  margin-top: 25px;
+}
+
+.server .details p {
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+.server .details li {
+  margin-bottom: 5px;
+}
+
+.server .details li b {
+  margin-right: 10px;
+}
+
+.server code {
+  background: #651fff;
+  padding: 5px 9px 7px 9px;
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
 }
