@@ -1,4 +1,6 @@
-$(document).ready(function(){
+$(window).on('load', function() {
+    $(".loader").hide();
+
     $('.modal').modal();
     $('.carousel').carousel();
 
@@ -18,5 +20,9 @@ $(document).ready(function(){
     $('#carousel-right').click(function(){
         $('.carousel.carousel-slider').carousel('next');
     });
+});
+
+$(document).ready(function(){
+    
     
 });
