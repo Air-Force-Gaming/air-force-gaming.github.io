@@ -117,6 +117,11 @@
   max-height: 350px;
 }
 
+#carousel-right {
+  position: absolute;
+  right: 0px;
+}
+
 .buttons {
   font-size: 26pt;
   cursor: pointer;

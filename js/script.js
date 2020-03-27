@@ -5,7 +5,6 @@ $(window).on('load', function() {
         $(".container").show();
         
         $('.modal').modal();
-        $('.carousel').carousel();
     
         $('.carousel-slider').carousel({
             fullWidth: true,
@@ -15,7 +14,7 @@ $(window).on('load', function() {
         setInterval(function() {
             $('.carousel-slider').carousel('next');
         }, 6000);
-        
+
         $('#carousel-left').click(function(){
             $('.carousel-slider').carousel('prev');
         });
