@@ -117,6 +117,12 @@
   max-height: 350px;
 }
 
+#carousel-left {
+  position: absolute;
+  left: 0px;
+  z-index: +100;
+}
+
 #carousel-right {
   position: absolute;
   right: 0px;
