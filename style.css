@@ -345,7 +345,7 @@
 	border-radius: 15px;
 }
 
-#gameManagerApplication, #verificationApplication, #_24hrStreamApplication, #gunfightApplication {
+#gameManagerApplication, #verificationApplication, #_24hrStreamApplication, #mediaApplication {
   height: 85%;
   background: #262626;
 }
