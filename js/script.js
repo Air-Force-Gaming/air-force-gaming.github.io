@@ -13,7 +13,7 @@ $(window).on('load', function() {
 
         setInterval(function() {
             $('.carousel-slider').carousel('next');
-        }, 6000);
+        }, 8000);
 
         $('#carousel-left').click(function(){
             $('.carousel-slider').carousel('prev');
