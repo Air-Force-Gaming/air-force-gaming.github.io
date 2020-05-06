@@ -345,7 +345,7 @@
 	border-radius: 15px;
 }
 
-#gameManagerApplication, #verificationApplication, #_24hrStreamApplication, #mediaApplication {
+#gameManagerApplication, #lolCupApplication {
   height: 85%;
   background: #262626;
 }
