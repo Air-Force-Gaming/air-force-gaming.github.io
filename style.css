@@ -363,6 +363,10 @@
   bottom: 0px;
 }
 
+.twitch {
+  display: none;
+}
+
 /* Servers */
 
 .server h5 {
