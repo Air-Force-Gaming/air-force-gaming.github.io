@@ -22,5 +22,21 @@ $(window).on('load', function() {
         $('#carousel-right').click(function(){
             $('.carousel-slider').carousel('next');
         });
+
+        $.ajax({
+            url: "https://api.twitch.tv/helix/streams?user_login=airforcegg",
+            dataType: 'json',
+            headers: {
+              'Client-ID': 'v03767ozho0makpoty7a4r8mvu9iz7'
+            },
+            success: function(channel)
+            {
+                console.log(channel);
+              if (channel["data"].length != 0)
+              {
+                $(".twitch").show();
+              }
+            }
+        });
     });
 });

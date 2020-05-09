@@ -337,6 +337,10 @@
   background-color: #212121;
 }
 
+.disclaimer a, .disclaimer i {
+  font-size: 12pt;
+}
+
 /* Speech bubbles */
 
 .speech-bubble {
@@ -357,6 +361,10 @@
 .modal-footer {
   position: absolute;
   bottom: 0px;
+}
+
+.twitch {
+  display: none;
 }
 
 /* Servers */
@@ -388,4 +396,19 @@
   border-radius: 7px;
   color: #fff;
   font-weight: 600;
+}
+
+/* Disclaimer */
+
+#disclaimers p {
+  margin: 20px 0px 20px 0px;
+}
+
+#disclaimers p b {
+  font-size: 125%;
+}
+
+#disclaimers li {
+  list-style-type: circle;
+  margin: 10px 30px 10px 30px;
 }
