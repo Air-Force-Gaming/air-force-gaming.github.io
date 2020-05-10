@@ -412,3 +412,29 @@
   list-style-type: circle;
   margin: 10px 30px 10px 30px;
 }
+
+/* Cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: #0d47a1; 
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.name {
+  color: black;
+  font-size: 90%;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
