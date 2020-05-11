@@ -285,6 +285,11 @@
   color: white;
 }
 
+.fa-github {
+  background: #F5F5F5;
+  color: #262626;
+}
+
 /* Email */
 .fa-envelope {
   background: #ffa726;
@@ -411,4 +416,36 @@
 #disclaimers li {
   list-style-type: circle;
   margin: 10px 30px 10px 30px;
+}
+
+/* Teams */
+
+.team-list {
+  margin-top: 50px;
+}
+
+.team-list .details {
+  margin-top: 5px;
+}
+
+.team-list .details p {
+  font-size: 13pt;
+  font-weight: 400;
+}
+
+.social-links {
+  margin-top: 25px;
+}
+
+.social-links li {
+  display: inline;
+  margin: 0px 4px 0px 4px;
+}
+
+.social-links .fab {
+  font-size: 30px;
+  padding: 10px 12px 10px 12px;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: 0.5s;
 }

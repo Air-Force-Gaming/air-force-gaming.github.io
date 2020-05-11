@@ -23,6 +23,11 @@ $(window).on('load', function() {
             $('.carousel-slider').carousel('next');
         });
 
+        $(".leader .card-image").hover(function() {
+            //$(".leader .card-image .avatar").toggle();
+            $(".leader .hover").slideToggle(175);
+        });
+
         $.ajax({
             url: "https://api.twitch.tv/helix/streams?user_login=airforcegg",
             dataType: 'json',
