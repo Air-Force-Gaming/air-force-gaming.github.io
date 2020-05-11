@@ -5,6 +5,7 @@ $(window).on('load', function() {
         $(".container").show();
         
         $('.modal').modal();
+        $('.scrollspy').scrollSpy();
     
         $('.carousel-slider').carousel({
             fullWidth: true,

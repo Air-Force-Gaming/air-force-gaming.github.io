@@ -421,11 +421,16 @@
 /* Teams */
 
 .team-list {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .team-list .details {
   margin-top: 5px;
+}
+
+.team-list h5 {
+  margin-top: 0px;
+  font-size: 18pt;
 }
 
 .team-list .details p {
@@ -434,7 +439,11 @@
 }
 
 .social-links {
-  margin-top: 25px;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  margin-top: 0px auto;
+  width: 100%;
 }
 
 .social-links li {
@@ -443,9 +452,30 @@
 }
 
 .social-links .fab {
-  font-size: 30px;
+  font-size: 22px;
   padding: 10px 12px 10px 12px;
   text-decoration: none;
   border-radius: 50%;
   transition: 0.5s;
+}
+
+.table-of-contents {
+  font-size: 13pt;
+}
+
+.table-of-contents li a {
+  font-weight: 300;
+  color: #fff;
+  border-left: 3px solid transparent;
+}
+
+.table-of-contents li .active {
+  font-weight: 700;
+  border-left: 3px solid #e040fb;
+}
+
+.table-of-contents li a:hover {
+  font-weight: 300;
+  border-left: 3px solid #4a148c;
+  color: #fff;
 }
