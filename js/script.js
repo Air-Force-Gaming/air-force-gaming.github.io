@@ -12,6 +12,8 @@ $(window).on('load', function() {
             indicators: true
         });
 
+        $('.collapsible').collapsible();
+
         setInterval(function() {
             $('.carousel-slider').carousel('next');
         }, 8000);
