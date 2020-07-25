@@ -519,6 +519,7 @@
 }
 
 .games-list h5 {
+  font-size: 16pt;
   margin-top: 5px;
   margin-bottom: 0px;
 }
@@ -535,6 +536,11 @@
 }
 
 .games-list .title {
-  font-size: 16pt;
+  font-size: 14pt;
   font-weight: 300;
+}
+
+.wide {
+  width: 85%;
+  margin: 0px auto;
 }
