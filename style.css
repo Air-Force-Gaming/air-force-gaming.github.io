@@ -496,6 +496,12 @@
   padding-top: 15px;
 }
 
+.games-list .game {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .games-list .banner {
   border: 3px solid #1e88e5;
   border-radius: 10px;
@@ -525,7 +531,7 @@
 }
 
 .games-list h5 {
-  font-size: 16pt;
+  font-size: 14pt;
   margin-top: 5px;
   margin-bottom: 0px;
 }
@@ -542,7 +548,7 @@
 }
 
 .games-list .title {
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: 300;
 }
 
