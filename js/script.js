@@ -14,6 +14,8 @@ $(window).on('load', function() {
 
         $('.collapsible').collapsible();
 
+        $('.sidenav').sidenav();
+
         setInterval(function() {
             $('.carousel-slider').carousel('next');
         }, 8000);

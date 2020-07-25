@@ -62,12 +62,13 @@
         <div class="col s12 l8 offset-l2">
           <ul class="header-nav left">
             <li><a class="white-text" href="/games.html">Games <i class="fas fa-gamepad"></i></a></li>
-            <li><a class="white-text" href="/servers.html">Servers <i class="fas fa-server"></i></a></li>
+            <li class="hide-on-small-only"><a class="white-text" href="/servers.html">Servers <i class="fas fa-server"></i></a></li>
             <li><a class="white-text" href="/teams.html">Teams <i class="fab fa-teamspeak"></i></a></li>
-            <li><a class="white-text" href="https://meet.airforcegaming.com">Collab <i class="fas fa-video"></i></a></li>
+            <li class="hide-on-small-only"><a class="white-text" href="https://meet.airforcegaming.com">Collab <i class="fas fa-video"></i></a></li>
+            <li class="hide-on-small-only"><a class="white-text" href="https://news.airforcegaming.com/" target="_blank">News <i class="far fa-newspaper"></i></a></li>
           </ul>
-          <ul class="header-nav hide-on-small-only right">
-            <li><a class="white-text" href="https://news.airforcegaming.com/" target="_blank">News <i class="far fa-newspaper"></i></a></li>
+          <ul class="header-nav hide-on-med-and-up right">
+            <li><a href="#" data-target="mobile-menu" class="sidenav-trigger white-text">Menu <i class="fas fa-bars"></i></a></li>
           </ul>
         </div>
       </div>
@@ -233,6 +234,12 @@
         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
       </div>
     </div>
+
+    <ul class="sidenav" id="mobile-menu">
+      <li><a href="/servers.html"><i class="fas fa-server"></i> Servers</a></li>
+      <li><a href="https://meet.airforcegaming.com/" target="_blank">Meet <i class="fas fa-video"></i></a></li>
+      <li><a href="https://news.airforcegaming.com/" target="_blank">News <i class="far fa-newspaper"></i></a></li>
+    </ul>
 
   </body>
   <!-- Global site tag (gtag.js) - Google Analytics -->

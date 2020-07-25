@@ -35,12 +35,13 @@
           <ul class="header-nav left">
             <li><a href="/"><img class="logo" src="https://cdn.glitch.com/49e8ab49-5e2e-401b-870e-d906216158c8%2Fimage01.png?v=1581937770829" /></a></li>
             <li><a class="white-text" href="/games.html">Games <i class="fas fa-gamepad"></i></a></li>
-            <li class="active"><a class="white-text" href="/servers.html">Servers <i class="fas fa-server"></i></a></li>
+            <li class="hide-on-small-only"><a class="white-text" href="/servers.html">Servers <i class="fas fa-server"></i></a></li>
             <li><a class="white-text" href="/teams.html">Teams <i class="fab fa-teamspeak"></i></a></li>
-            <li><a class="white-text" href="https://meet.airforcegaming.com">Collab <i class="fas fa-video"></i></a></li>
+            <li class="hide-on-small-only"><a class="white-text" href="https://meet.airforcegaming.com">Collab <i class="fas fa-video"></i></a></li>
+            <li class="hide-on-small-only"><a class="white-text" href="https://news.airforcegaming.com/" target="_blank">News <i class="far fa-newspaper"></i></a></li>
           </ul>
-          <ul class="header-nav hide-on-small-only right">
-            <li><a class="white-text" href="https://news.airforcegaming.com/" target="_blank">News <i class="far fa-newspaper"></i></a></li>
+          <ul class="header-nav hide-on-med-and-up right">
+            <li><a href="#" data-target="mobile-menu" class="sidenav-trigger white-text">Menu <i class="fas fa-bars"></i></a></li>
           </ul>
         </div>
       </div>
@@ -77,6 +78,12 @@
         </div>
       </div>
     </div>
+
+    <ul class="sidenav" id="mobile-menu">
+      <li><a href="/servers.html"><i class="fas fa-server"></i> Servers</a></li>
+      <li><a href="https://meet.airforcegaming.com/" target="_blank">Meet <i class="fas fa-video"></i></a></li>
+      <li><a href="https://news.airforcegaming.com/" target="_blank">News <i class="far fa-newspaper"></i></a></li>
+    </ul>
 
   </body>
   <!-- Global site tag (gtag.js) - Google Analytics -->

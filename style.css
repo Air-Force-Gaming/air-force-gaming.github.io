@@ -41,6 +41,7 @@
 .header, .container {
   display: none;
   transition: 0.5s;
+  width: 100%;
 }
 
 .header {
@@ -298,6 +299,11 @@
 .fa-envelope {
   background: #ffa726;
   color: white;
+}
+
+#mobile-menu i {
+  padding: 0px;
+  font-size: 14pt;
 }
 
 /* Utility classes */
